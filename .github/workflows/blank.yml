@@ -30,7 +30,7 @@ jobs:
           go-version: '1.14' # The Go version to download (if necessary) and use.
       - run: |
           ls -lharts
-          cd /app
+          cd ./app
           go mod vendor
 
       - name: package (zip)
